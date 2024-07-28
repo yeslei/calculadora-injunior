@@ -1,0 +1,23 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    flex-direction: column;
+    
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#espacobranco {
+    width: 30vw;
+    height: 50vh;
+    overflow-y: scroll;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 3px black solid;
+    border-radius: 4px;
+}
